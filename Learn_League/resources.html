@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Learn League</title>
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/site.css" />
+	<link rel="shortcut icon" href="Assets/Images/icon.ico" />
+	<script src="Assets/Scripts/jscript.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<header>
+			<div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="client.html">The Client</a></li>
+					<li><a href="game.html">The Game</a></li>
+					<li><a href="champs.html">Champions to Play</a></li>
+					<li><a href="resources.html">Resources</a></li>
+				</ul>
+			</nav>
+			<h1>Extra Resources</h1>
+		</header>
+		
+		<section id="content">
+				<p>
+				I have tried to make this website as simple as possible so that learning could be efficient, however because of this i missed some important details. Thats why this section is dedicated to give you extra information via links to other websites/contacting me. You can click the image of the website to go there. 
+				</p>
+				<h3>U.gg</h3>
+				<p>U.gg is a website that will show you the most popular build and runes for all champions at any time. You can also look at teir lists by winrate to see what champions are the strongest at the moment. This is the go-to most useful website for League of Legends.</p>
+				<a href="https://u.gg/" target="_blank"><img alt="u.gg_website" class="runes" src="Assets/Images/u_gg.png" /></a>
+				
+				<h3>OP.gg</h3>
+				<p>Although League of Legends offers a match history, OP.gg has a much more in depth one that shows your champion winrates cs per minute and other useful statistics.</p>
+				<a href="https://op.gg/" target="_blank"><img alt="op.gg_website" class="runes" src="Assets/Images/op_gg.png" /></a>
+				
+				<h3>Mobafire</h3>
+				<p>This website hosts a lot of in depth guides for each champions made by users. If you can find the right guide for your champion it can be really informative, however anyone can submit there so theres a lot of troll builds or outdated ones.</p>
+				<a href="https://www.mobafire.com/" target="_blank" ><img alt="mobafire_website" class="runes" src="Assets/Images/moba_fire.png" /></a>
+				
+				<h3>WOL.gg</h3>
+				<p>This website can show you how much time you've Wasted On Lol. Since league doesnt provide you with a play time statistic this can be useful if youre curious.</p>
+				<a href="https://wol.gg/" target="_blank"><img alt="wol.gg_website" class="runes" src="Assets/Images/wol_gg.png" /></a>
+				<br>
+				<hr>
+				<p>Lastly if none of these websites have what you want, or you wish to contact me about a way to improve this website or any other querys, feel free to fill out the contact for down below.</p>
+
+				<form id="format" action="#" name="contactForm" onsubmit="return( validate() );">
+					<label>
+						<span>Firstname: </span><span class="errorMsg" id="firstnameMessage"></span>
+						<input type="text" class="genInp" name="firstname" >
+					</label><br>
+					<label>
+						<span>Lastname: </span><span class="errorMsg" id="lastnameMessage"></span>
+						<input type="text" class="genInp" name="lastname">
+					</label><br>
+					<label>
+						<span>Email: </span><span class="errorMsg" id="emailMessage"></span>
+						<input type="email" class="genInp" name="email">
+					</label><br>
+					<label>Purpose of Contact: </label><select class="genInp">
+						<option value="improv">A way to improve website</option>
+						<option value="help">Need help with something</option>
+						<option value="other">Other</option>
+					</select><br>
+					<label>How would you rate the usefulness of this site?<span class="errorMsg" id="radiochk"></span></label><br>
+					<label>Good</label><input type="radio" name="rating" value="Good" id="a"><br>
+					<label>OK</label><input type="radio" name="rating" value="Ok" id="b"><br>
+					<label>Bad</label><input type="radio" name="rating" value="Bad" id="c"><br><br>
+					<label>
+					What lane do you play?<span class="errorMsg" id="laneplay"></span>
+					</label><br>
+					<input class="clickInp" type="checkbox" name="playlane" id="1" value="Top">Top<br>
+					<input class="clickInp" type="checkbox" name="playlane"	id="2" value="Jng">Jng<br>
+					<input class="clickInp" type="checkbox" name="playlane" id="3" value="Mid">Mid<br>
+					<input class="clickInp" type="checkbox" name="playlane" id="4" value="Bot">Bot<br>
+					<input class="clickInp" type="checkbox" name="playlane" id="5" value="Sup">Sup<br>					
+					<label>
+						Write your comment here.<span class="errorMsg" id="comment1"></span><br>
+						<textarea name="comment"></textarea>
+					</label><br>
+					<button type="submit" >Submit</button>
+				</form>
+		</section>
+		
+		<footer>
+			<p>Site by: Mateusz Zablocki &copy; 2020</p>
+		</footer>
+	</div>
+</body>
+
+</html>
